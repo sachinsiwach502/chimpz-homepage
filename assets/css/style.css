@@ -37,6 +37,9 @@
     --white-color: #ffff;
     --btn-color: #FFC20A;
     --body-color: #030D01;
+    --light-yellow: #EAA763;
+    --dark-yellow: #F7D567;
+    --red-color: #B73537;
 
 
     --fs-10: 10px;
@@ -395,6 +398,18 @@
     color: var(--primary-color);
 }
 
+.light_yellow {
+    color: var(--light-yellow);
+}
+
+.dark_yellow {
+    color: var(--dark-yellow);
+}
+
+.red {
+    color: var(--red-color);
+}
+
 
 /* =================================main-sec======================================== */
 .main-sec-bg-img {
@@ -435,16 +450,55 @@
     padding-top: 10px;
 }
 
+.pt_100 {
+    padding-top: 100px;
+}
+
 .pt_14 {
     padding-top: 14px;
+}
+
+.pb_108 {
+    padding-bottom: 108px;
 }
 
 .pb_40 {
     padding-bottom: 40px;
 }
 
+.pt_30 {
+    padding-top: 30px;
+}
+
+.pb_73 {
+    padding-bottom: 73px;
+}
+
 .pt_80 {
     padding-top: 80px;
+}
+
+.mt_40 {
+    margin-top: 40px;
+}
+
+.pt-76 {
+    padding-top: 76px;
+}
+
+.company-border {
+    max-width: 220px;
+    min-height: 80px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.supply_border {
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    padding: 34px 90px 34px 72px;
 }
 
 .pt_150 {
@@ -497,6 +551,14 @@
 
 .main_container {
     max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partner_container {
+    max-width: 1001px;
     padding-left: 12px;
     padding-right: 12px;
     margin-left: auto;
