@@ -577,6 +577,26 @@
     padding-top: 180px;
 }
 
+.mt_30 {
+    margin-top: 30px;
+}
+
+.pl_32 {
+    padding-left: 32px;
+}
+
+.pr_32 {
+    padding-right: 32px;
+}
+
+.faq_container {
+    max-width: 800px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .img_border {
     width: 107px;
     height: 107px;
@@ -589,6 +609,16 @@
     position: absolute;
     bottom: 9px;
     left: 13px;
+}
+
+.accordian_text {
+    display: none;
+}
+
+.accord_itm {
+    background: #FFFFFF0F;
+    border: 1px solid #FFFFFFB8;
+    border-radius: 30px;
 }
 
 /*========================== media-screen =========================*/

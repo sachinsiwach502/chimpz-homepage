@@ -29,17 +29,17 @@ function line() {
 }
 
 
-// add show class in nav links--------------
-menuIcon.addEventListener("click", () => {
-    menuList.classList.toggle("show");
-    if (menuList.classList.contains("show")) {
-        cross();
-        body.style.overflow = "hidden";
-    } else {
-        line();
-        body.style.overflow = "auto";
-    }
-});
+// // add show class in nav links--------------
+// menuIcon.addEventListener("click", () => {
+//     menuList.classList.toggle("show");
+//     if (menuList.classList.contains("show")) {
+//         cross();
+//         body.style.overflow = "hidden";
+//     } else {
+//         line();
+//         body.style.overflow = "auto";
+//     }
+// });
 
 
 // accordina---------------------------------
@@ -47,7 +47,6 @@ let accordian = document.querySelectorAll(".accord_itm");
 
 accordian.forEach(Element => {
     let plusimg = Element.querySelector(".plus");
-    let minsimg = Element.querySelector(".mins");
     let clickable_accord = Element.querySelector(".accordian-head");
     let hidden_txt = Element.querySelector(".accordian_text");
     clickable_accord.addEventListener("click", () => {
@@ -57,20 +56,17 @@ accordian.forEach(Element => {
                 let minsimg = otherelement.querySelector(".mins");
                 let hidden_txt = otherelement.querySelector(".accordian_text");
                 hidden_txt.style.display = "none";
-                minsimg.style.display = "none";
-                plusimg.style.display = "flex"
+                plusimg.style.transform = "rotate(0deg)";
             }
 
         });
         let txt_style = window.getComputedStyle(hidden_txt).display;
         if (txt_style === "none") {
             hidden_txt.style.display = "flex";
-            plusimg.style.display = "none";
-            minsimg.style.display = "flex";
+            plusimg.style.transform = "rotate(180deg)";
         } else {
             hidden_txt.style.display = "none";
-            plusimg.style.display = "flex";
-            minsimg.style.display = "none";
+            plusimg.style.transform = "rotate(0deg)";
         }
     });
 });
