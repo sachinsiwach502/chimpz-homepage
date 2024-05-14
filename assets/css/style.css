@@ -36,6 +36,7 @@
     --black-color: #000000;
     --white-color: #ffff;
     --btn-color: #FFC20A;
+    --body-color: #030D01;
 
 
     --fs-10: 10px;
@@ -121,6 +122,10 @@
 
 .black {
     color: var(--black-color);
+}
+
+.body-color {
+    background-color: var(--body-color);
 }
 
 .sec_color {
@@ -426,12 +431,64 @@
     gap: 60px;
 }
 
+.pt_10 {
+    padding-top: 10px;
+}
+
+.pt_14 {
+    padding-top: 14px;
+}
+
+.pb_40 {
+    padding-bottom: 40px;
+}
+
+.pt_80 {
+    padding-top: 80px;
+}
+
+.pt_150 {
+    padding-top: 150px;
+}
+
 .backdrop_blur {
     backdrop-filter: blur(3px);
 }
 
+.py_20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.px_8 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.team_border {
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    border-radius: 16px;
+    backdrop-filter: blur(20px);
+}
+
+.team_bg-img {
+    background-image: url("../img/png/team_bg-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .hero_container {
     max-width: 1176px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team_container {
+    max-width: 675px;
     padding-left: 12px;
     padding-right: 12px;
     margin-left: auto;
@@ -448,6 +505,28 @@
 
 .opacity-90 {
     opacity: 90%;
+}
+
+.gap_40 {
+    gap: 40px;
+}
+
+.pt_180 {
+    padding-top: 180px;
+}
+
+.img_border {
+    width: 107px;
+    height: 107px;
+    border: 1px solid rgba(68, 197, 50, 0.32);
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.inside_border-content {
+    position: absolute;
+    bottom: 9px;
+    left: 13px;
 }
 
 /*========================== media-screen =========================*/
