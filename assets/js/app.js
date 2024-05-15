@@ -29,17 +29,19 @@ function line() {
 }
 
 
-// // add show class in nav links--------------
-// menuIcon.addEventListener("click", () => {
-//     menuList.classList.toggle("show");
-//     if (menuList.classList.contains("show")) {
-//         cross();
-//         body.style.overflow = "hidden";
-//     } else {
-//         line();
-//         body.style.overflow = "auto";
-//     }
-// });
+// add show class in nav links--------------
+menuIcon.addEventListener("click", () => {
+    menuList.classList.toggle("show");
+    if (menuList.classList.contains("show")) {
+        cross();
+        body.style.overflow = "hidden";
+    } else {
+        line();
+        body.style.overflow = "auto";
+    }
+});
+
+
 
 
 // accordina---------------------------------
@@ -86,29 +88,33 @@ navLinks.forEach(links => {
 
 // scroll to top-----------------
 
-let scroll_top = document.querySelector(".scroll_to_top");
-let scrol_pt = 200;
-scroll_top.style.display = "none";
-window.addEventListener("scroll", () => {
-    if (window.scrollY > scrol_pt) {
-        scroll_top.style.display = "block"
-    } else {
-        scroll_top.style.display = "none";
-    }
-});
+// let scroll_top = document.querySelector(".scroll_to_top");
+// let scrol_pt = 200;
+// scroll_top.style.display = "none";
+// window.addEventListener("scroll", () => {
+//     if (window.scrollY > scrol_pt) {
+//         scroll_top.style.display = "block"
+//     } else {
+//         scroll_top.style.display = "none";
+//     }
+// });
 
-scroll_top.addEventListener("click", () => {
-    window.scrollTo({
-        top: 0, behaviour: "smooth",
-    })
-});
-
-
+// scroll_top.addEventListener("click", () => {
+//     window.scrollTo({
+//         top: 0, behaviour: "smooth",
+//     })
+// });
 
 
-// preloader---------------------
-let preloader = document.querySelector(".preloader");
-preloader.classList.add("d-flex");
-setTimeout(() => {
-    preloader.classList.add("d-none");
-}, 3000);
+
+
+// // preloader---------------------
+// let preloader = document.querySelector(".preloader");
+// preloader.classList.add("d-flex");
+// setTimeout(() => {
+//     preloader.classList.add("d-none");
+// }, 3000);
+
+
+
+

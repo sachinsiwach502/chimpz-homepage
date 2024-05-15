@@ -23,9 +23,14 @@
             <div class="main_container">
                 <div class="d-flex align-items-center justify-content-between">
                     <span><img src="./assets/img/svg/navIcon.svg" alt="nav icon" class="curser"></span>
-                    <div class="gap_32 d-flex align-items-center">
-                        <div class="gap_60 d-flex align-items-center">
-                            <ul class="d-flex align-items-center gap-5 mb-0">
+                    <div class="menuIcon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="gap_32 d-flex align-items-center menuBar">
+                        <div class="gap_60 d-flex align-items-center menuView">
+                            <ul class="d-flex align-items-center gap-5 mb-0 menuBarView">
                                 <li>
                                     <a href="#"
                                         class="fw-4 fs-16 lh-24 ff-fira text-white opacity-75 menu-links">Home</a>
@@ -98,7 +103,7 @@
             <div class="main_container">
                 <div class="row d-flex align-items-center">
                     <div class="col-lg-6">
-                        <img src="./assets/img/png/aboutus_img.png" alt="robotic Chimpz">
+                        <img src="./assets/img/png/aboutus_img.png" alt="robotic Chimpz" class="w-100">
                     </div>
                     <div class="col-lg-6">
                         <h1 class="fs-48 fw-4 lh-68 ff-dalta text-white">About Us</h1>
@@ -119,6 +124,71 @@
             </div>
         </section>
 
+        <!--================== How To Buy ===============================-->
+        <section class="pt_180 position-xl-relative">
+            <div class="max-xl-container">
+                <h1 class="fs-48 fw-4 lh-68 ff-dalta text-white text-center pb_108">How To Buy</h1>
+                <div class="position-xl-absolute bander_img bottom-0">
+                    <img src="./assets/img/png/bandar_image.png" alt="bandar_image">
+                </div>
+
+                <div
+                    class="d-flex  align-items-center justify-content-between container_879px mb_63 pt_xl_36 flex-xl-row flex-column">
+                    <div class="position-xl-relative first_bander_img d-flex d-xl-block align-items-center gap-4">
+                        <div class="position-xl-absolute bander_circle_img_2 position-min-xl-relative">
+                            <img src="./assets/img/png/bandar_circle_2.png" alt="ETH">
+                        </div>
+                        <p class="mb-0 ff-fira fw-4 fs-16 lh-24 opacity-75 max-w-281 text-white">
+                            Have ETH in your
+                            wallet
+                            to
+                            switch to $CHIMPZ. If
+                            you don't have any ETH, you can buy it directly on Metamask, transfer
+                            it from another wallet, or purchase it on another exchange and send it to your wallet.
+                        </p>
+                    </div>
+                    <div class="position-xl-relative sec_bander_img d-flex d-xl-block align-items-center gap-4 pt_xl_36">
+                        <div class="position-xl-absolute bander_circle_img_3 position-min-xl-relative">
+                            <img src="./assets/img/png/bandar_circle_3.png" alt="ETH">
+                        </div>
+
+                        <p class="mb-0 ff-fira fw-4 fs-16 lh-24 opacity-75 max-w-356 text-white">Connect to Uniswap.
+                            Go
+                            to app.uniswap.org in Google Chrome or on the browser inside your Metamask app. Connect
+                            your
+                            wallet. Paste the $CHIMPZ token address into Uniswap, select CHIMPZ, and confirm. When
+                            Metamask prompts you for a wallet
+                            signature, sign.
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="hero_xl_container d-flex justify-content-between align-items-center flex-xl-row flex-column">
+                    <div class="position-xl-relative three_bander_img d-flex d-xl-block align-items-center gap-4 pt_xl_36">
+                        <div class="position-xl-absolute bander_circle_img_1 position-min-xl-relative">
+                            <img src="./assets/img/png/bandar_circle_1.png" alt="download icon">
+                        </div>
+                        <p class="mb-0 ff-fira fw-4 fs-16 lh-24 opacity-75 max-w-281 text-white">
+                            Download Metamask or your
+                            wallet of choice from the app store or Google Play Store for free. Desktop users, download
+                            the
+                            Google Chrome extension by going to metamask.io.
+                        </p>
+                    </div>
+                    <div class="position-xl-relative four_bander_img d-flex d-xl-block align-items-center gap-4 pt_xl_36">
+                        <div class="position-xl-absolute bander_circle_img_4 position-min-xl-relative">
+                            <img src="./assets/img/png/bandar_circle_4.png" alt="download icon">
+                        </div>
+                        <p class="mb-0 ff-fira fw-4 fs-16 lh-24 opacity-75 max-w-281 text-white">Switch ETH for $CHIMPZ.
+                            We
+                            do
+                            have taxes, and as of right now, they are set at 3%, so you will need to increase slippage
+                            to 4%. You may need to increase slippage even higher during times of market volatility.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!--============================ roadmap ======================-->
         <section class="pt_180">
             <div class="main_container">
@@ -370,9 +440,16 @@
                 <div class="accord_itm mt_30">
                     <div
                         class="d-flex align-items-center justify-content-between accordian-head curser pt-3 pb-3 pl_32 pr_32">
-                        <h1 class="text-white fs-16 lh-24 ff-fira fw-5 mb-0">What are the $CHIMPZ token details?</h1>
+                        <h1 class="text-white fs-16 lh-24 ff-fira fw-5 mb-0 accordian_heading">What are the $CHIMPZ
+                            token details?</h1>
                         <div class="plus justify-content-center align-items-center">
-                            <img src="./assets/img/svg/downside_arrow.svg" alt="arrow">
+                            <svg width="20" height="17" viewBox="0 0 20 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.8839 12.8839C10.3957 13.372 9.60427 13.372 9.11612 12.8839L1.16117 4.92893C0.67301 4.44078 0.67301 3.64932 1.16117 3.16117C1.64932 2.67301 2.44078 2.67301 2.92893 3.16117L10 10.2322L17.0711 3.16117C17.5592 2.67301 18.3507 2.67301 18.8388 3.16117C19.327 3.64932 19.327 4.44078 18.8388 4.92893L10.8839 12.8839ZM11.25 11V12H8.75V11H11.25Z"
+                                    fill="white" />
+                            </svg>
+
                         </div>
                     </div>
                     <p class="accordian_text pt-2-pb-2 ps-4 pe-4 xl-fs-20 fs-18 fw-4 text-white ff-hl">Lorem ipsum
@@ -383,9 +460,15 @@
                 <div class="accord_itm mt_30">
                     <div
                         class="d-flex align-items-center justify-content-between accordian-head curser pt-3 pb-3 pl_32 pr_32">
-                        <h1 class="text-white fs-16 lh-24 ff-fira fw-5 mb-0">What is Chimpz?</h1>
+                        <h1 class="text-white fs-16 lh-24 ff-fira fw-5 mb-0 accordian_heading">What is Chimpz?</h1>
                         <div class="plus justify-content-center align-items-center">
-                            <img src="./assets/img/svg/downside_arrow.svg" alt="arrow">
+                            <svg width="20" height="17" viewBox="0 0 20 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.8839 12.8839C10.3957 13.372 9.60427 13.372 9.11612 12.8839L1.16117 4.92893C0.67301 4.44078 0.67301 3.64932 1.16117 3.16117C1.64932 2.67301 2.44078 2.67301 2.92893 3.16117L10 10.2322L17.0711 3.16117C17.5592 2.67301 18.3507 2.67301 18.8388 3.16117C19.327 3.64932 19.327 4.44078 18.8388 4.92893L10.8839 12.8839ZM11.25 11V12H8.75V11H11.25Z"
+                                    fill="white" />
+                            </svg>
+
                         </div>
                     </div>
                     <p class="accordian_text pt-2-pb-2 ps-4 pe-4 xl-fs-20 fs-18 fw-4 text-white ff-hl">Lorem ipsum
@@ -396,9 +479,16 @@
                 <div class="accord_itm mt_30">
                     <div
                         class="d-flex align-items-center justify-content-between accordian-head curser pt-3 pb-3 pl_32 pr_32">
-                        <h1 class="text-white fs-16 lh-24 ff-fira fw-5 mb-0">Who is the Contract Developer?</h1>
+                        <h1 class="text-white fs-16 lh-24 ff-fira fw-5 mb-0 accordian_heading">Who is the Contract
+                            Developer?</h1>
                         <div class="plus justify-content-center align-items-center">
-                            <img src="./assets/img/svg/downside_arrow.svg" alt="arrow">
+                            <svg width="20" height="17" viewBox="0 0 20 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.8839 12.8839C10.3957 13.372 9.60427 13.372 9.11612 12.8839L1.16117 4.92893C0.67301 4.44078 0.67301 3.64932 1.16117 3.16117C1.64932 2.67301 2.44078 2.67301 2.92893 3.16117L10 10.2322L17.0711 3.16117C17.5592 2.67301 18.3507 2.67301 18.8388 3.16117C19.327 3.64932 19.327 4.44078 18.8388 4.92893L10.8839 12.8839ZM11.25 11V12H8.75V11H11.25Z"
+                                    fill="white" />
+                            </svg>
+
                         </div>
                     </div>
                     <p class="accordian_text pt-2-pb-2 ps-4 pe-4 xl-fs-20 fs-18 fw-4 text-white ff-hl">Lorem ipsum
@@ -409,10 +499,17 @@
                 <div class="accord_itm mt_30">
                     <div
                         class="d-flex align-items-center justify-content-between accordian-head curser pt-3 pb-3 pl_32 pr_32">
-                        <h1 class="text-white fs-16 lh-24 ff-fira fw-5 mb-0">When is the presale and launch of $CHIMPZ?
+                        <h1 class="text-white fs-16 lh-24 ff-fira fw-5 mb-0 accordian_heading">When is the presale and
+                            launch of $CHIMPZ?
                         </h1>
                         <div class="plus justify-content-center align-items-center">
-                            <img src="./assets/img/svg/downside_arrow.svg" alt="arrow">
+                            <svg width="20" height="17" viewBox="0 0 20 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.8839 12.8839C10.3957 13.372 9.60427 13.372 9.11612 12.8839L1.16117 4.92893C0.67301 4.44078 0.67301 3.64932 1.16117 3.16117C1.64932 2.67301 2.44078 2.67301 2.92893 3.16117L10 10.2322L17.0711 3.16117C17.5592 2.67301 18.3507 2.67301 18.8388 3.16117C19.327 3.64932 19.327 4.44078 18.8388 4.92893L10.8839 12.8839ZM11.25 11V12H8.75V11H11.25Z"
+                                    fill="white" />
+                            </svg>
+
                         </div>
                     </div>
                     <p class="accordian_text pt-2-pb-2 ps-4 pe-4 xl-fs-20 fs-18 fw-4 text-white ff-hl">Lorem ipsum
@@ -423,9 +520,16 @@
                 <div class="accord_itm mt_30">
                     <div
                         class="d-flex align-items-center justify-content-between accordian-head  curser pt-3 pb-3 pl_32 pr_32">
-                        <h1 class="text-white fs-16 lh-24 ff-fira fw-5 mb-0">How do I claim my $CHIMPZ tokens?</h1>
+                        <h1 class="text-white fs-16 lh-24 ff-fira fw-5 mb-0 accordian_heading">How do I claim my $CHIMPZ
+                            tokens?</h1>
                         <div class="plus justify-content-center align-items-center">
-                            <img src="./assets/img/svg/downside_arrow.svg" alt="arrow">
+                            <svg width="20" height="17" viewBox="0 0 20 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.8839 12.8839C10.3957 13.372 9.60427 13.372 9.11612 12.8839L1.16117 4.92893C0.67301 4.44078 0.67301 3.64932 1.16117 3.16117C1.64932 2.67301 2.44078 2.67301 2.92893 3.16117L10 10.2322L17.0711 3.16117C17.5592 2.67301 18.3507 2.67301 18.8388 3.16117C19.327 3.64932 19.327 4.44078 18.8388 4.92893L10.8839 12.8839ZM11.25 11V12H8.75V11H11.25Z"
+                                    fill="white" />
+                            </svg>
+
                         </div>
                     </div>
                     <p class="accordian_text pt-2-pb-2 ps-4 pe-4 xl-fs-20 fs-18 fw-4 text-white ff-hl">Lorem ipsum
@@ -438,7 +542,35 @@
     </main>
 
     <footer>
-
+        <!--========================== footer==================== -->
+        <section class="footer-bg-img mt_150">
+            <div
+                class="container-fluid position-relative z-3 d-flex align-items-center justify-content-center flex-column px-0">
+                <span class="pt_30"><img src="./assets/img/svg/footer_logo.svg" alt="footer icon"></span>
+                <p class="max-w-598 ff-fira fw-4 fs-16 lh-24 text-white opacity-75 text-center pt_56">Lorem Ipsum is
+                    simply
+                    dummy text of
+                    the
+                    printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                    dummy text ever since the 1500s,</p>
+                <div class="d-flex align-items-center gap-4 pt-5">
+                    <a href="https://discord.com/login" target="_blank">
+                        <div class="media_app d-flex align-items-center justify-content-center"><img
+                                src="./assets/img/svg/discord_link.svg" alt="discord"></div>
+                    </a>
+                    <a href="https://web.telegram.org/" target="_blank">
+                        <div class="media_app d-flex align-items-center justify-content-center"><img
+                                src="./assets/img/svg/telegram_link.svg" alt="telegram"></div>
+                    </a>
+                    <a href="https://twitter.com/login" target="_blank">
+                        <div class="media_app d-flex align-items-center justify-content-center"><img
+                                src="./assets/img/svg/twitter_link.svg" alt="twitter"></div>
+                    </a>
+                </div>
+                <div class="underline"></div>
+                <p class="opacity-75 ff-fira fw-4 fs-16 lh-24 text-white px_20">Copyright2023/CHIMPZ</p>
+            </div>
+        </section>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
