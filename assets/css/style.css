@@ -40,6 +40,10 @@
     --light-yellow: #EAA763;
     --dark-yellow: #F7D567;
     --red-color: #B73537;
+    --footer-underline: #FF9F00;
+    --accordian-hover: #00A600;
+    --accordian-bg: #FFFFFF0F;
+    --accodian-border: #FFFFFFB8;
 
 
     --fs-10: 10px;
@@ -610,13 +614,13 @@
 }
 
 .accord_itm {
-    background: #FFFFFF0F;
-    border: 1px solid #FFFFFFB8;
+    background: var(--accordian-bg);
+    border: 1px solid var(--accodian-border);
     border-radius: 30px;
 }
 
 .accord_itm:hover {
-    border-color: #00A600;
+    border-color: var(--accordian-hover);
 }
 
 .max-w-598 {
@@ -624,15 +628,15 @@
 }
 
 .accord_itm:hover .accordian-head .accordian_heading {
-    color: #00A600 !important;
+    color: var(--accordian-hover) !important;
 }
 
 .accord_itm:hover div .plus svg path {
-    fill: #00A600 !important;
+    fill: var(--accordian-hover) !important;
 }
 
 .accord_itm:hover .accordian_text {
-    color: #00A600 !important;
+    color: var(--accordian-hover) !important;
 }
 
 .pt_56 {
@@ -659,11 +663,21 @@
     right: 0;
 }
 
+/*====================== preloader ========================*/
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 105%;
+    top: 0;
+    right: 0;
+    background-color: var(--black-color);
+    z-index: 100;
+}
 
 
 .underline {
     width: 100%;
-    background: #FF9F00;
+    background: var(--footer-underline);
     height: 1px;
     margin-top: 44px;
     opacity: 40%;
@@ -825,7 +839,7 @@
     .bander_circle_img_4::before {
         position: absolute;
         content: "";
-        background-image: url("../img/png/bander_half_circle.png");
+        background-image: url("../img/svg/bander_half_circle.svg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
