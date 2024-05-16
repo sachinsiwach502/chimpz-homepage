@@ -42,8 +42,6 @@ menuIcon.addEventListener("click", () => {
 });
 
 
-
-
 // accordina---------------------------------
 let accordian = document.querySelectorAll(".accord_itm");
 
@@ -72,6 +70,7 @@ accordian.forEach(Element => {
         }
     });
 });
+
 
 // navlinks hidden show class----------
 let navLinks = document.querySelectorAll(".nav_links")
@@ -109,6 +108,7 @@ scroll_top.addEventListener("click", () => {
 
 
 // // preloader---------------------
+
 let preloader = document.querySelector(".preloader");
 preloader.classList.add("d-flex");
 setTimeout(() => {
