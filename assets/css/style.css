@@ -722,8 +722,9 @@
     100% {
         transform: translateY(0p);
     }
-
 }
+
+
 
 .button-2 {
     color: var(--white-color);
